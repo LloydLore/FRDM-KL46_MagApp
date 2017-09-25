@@ -56,6 +56,7 @@
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\BitIoLdd3.c</PathName>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\CS1.c</PathName>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\Cpu.c</PathName>
+      <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\I2C2.c</PathName>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\LEDB.c</PathName>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\LEDG.c</PathName>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\LEDR.c</PathName>
@@ -71,6 +72,7 @@
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Project_Settings\Startup_Code\__arm_start.c</PathName>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Sources\Application.c</PathName>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Sources\Events.c</PathName>
+      <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Sources\LEDLoop.c</PathName>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Sources\main.c</PathName>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Sources\sa_mtb.c</PathName>
     </GeneratedCs>
@@ -82,6 +84,7 @@
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\CS1.h</PathName>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\CS1config.h</PathName>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\Cpu.h</PathName>
+      <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\I2C2.h</PathName>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\IO_Map.h</PathName>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\LEDB.h</PathName>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\LEDBconfig.h</PathName>
@@ -106,6 +109,7 @@
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Project_Settings\Startup_Code\runtime_configuration.h</PathName>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Sources\Application.h</PathName>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Sources\Events.h</PathName>
+      <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Sources\LEDLoop.h</PathName>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Static_Code\IO_Map\MKL25Z4.h</PathName>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Static_Code\PDD\ADC_PDD.h</PathName>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Static_Code\PDD\CMP_PDD.h</PathName>

@@ -48,6 +48,7 @@
 #include "LEDpin3.h"
 #include "BitIoLdd3.h"
 #include "WAIT1.h"
+#include "I2C2.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -105,6 +106,46 @@ void AS1_OnBlockReceived(LDD_TUserData *UserDataPtr);
 */
 /* ===================================================================*/
 void AS1_OnBlockSent(LDD_TUserData *UserDataPtr);
+
+/*
+** ===================================================================
+**     Event       :  I2C2_OnMasterBlockSent (module Events)
+**
+**     Component   :  I2C2 [I2C_LDD]
+*/
+/*!
+**     @brief
+**         This event is called when I2C in master mode finishes the
+**         transmission of the data successfully. This event is not
+**         available for the SLAVE mode and if MasterSendBlock is
+**         disabled. 
+**     @param
+**         UserDataPtr     - Pointer to the user or
+**                           RTOS specific data. This pointer is passed
+**                           as the parameter of Init method.
+*/
+/* ===================================================================*/
+void I2C2_OnMasterBlockSent(LDD_TUserData *UserDataPtr);
+
+/*
+** ===================================================================
+**     Event       :  I2C2_OnMasterBlockReceived (module Events)
+**
+**     Component   :  I2C2 [I2C_LDD]
+*/
+/*!
+**     @brief
+**         This event is called when I2C is in master mode and finishes
+**         the reception of the data successfully. This event is not
+**         available for the SLAVE mode and if MasterReceiveBlock is
+**         disabled.
+**     @param
+**         UserDataPtr     - Pointer to the user or
+**                           RTOS specific data. This pointer is passed
+**                           as the parameter of Init method.
+*/
+/* ===================================================================*/
+void I2C2_OnMasterBlockReceived(LDD_TUserData *UserDataPtr);
 
 /* END Events */
 

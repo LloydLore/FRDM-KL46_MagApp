@@ -5,6 +5,9 @@
  *      Author: Michael.luo
  *      Note: I mainly copied the content of this file from Erich Styger. Special thanks to him. 
  *		I modified here to see if the files are synced. typed when in progress of 6th commit. 
+ *		I modified here to see if the files are synced. typed when in progress of 7th commit. 
+ *		During 7th commit, I succeed connecting the visual studio with CW eclipse through github. good thing. 
+ *		I try push the 7th commit to the server. so I take the 8th commit. 
  */
 
 #include "MMA8451.h"

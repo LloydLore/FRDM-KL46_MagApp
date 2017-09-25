@@ -2,7 +2,7 @@
 # Automatically-generated file. Do not edit!
 ################################################################################
 
-#Progress monitor hint: 13
+#Progress monitor hint: 24
 first : all
 -include ../makefile.init
 
@@ -59,7 +59,7 @@ all: warning-messages explicit-dependencies FRDM-KL25ZUART.elf secondary-outputs
 # Tool invocations
 FRDM-KL25ZUART.elf: $(OBJS) $(USER_OBJS) ../Project_Settings/Linker_Files/ProcessorExpert.ld
 	@echo 'Building target: $@'
-	@echo 'Executing target #14 $@'
+	@echo 'Executing target #25 $@'
 	@echo 'Invoking: ARM Ltd Windows GCC C Linker'
 	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc"  $(USER_OBJS_QUOTED) $(LIBS_QUOTED) @"FRDM-KL25ZUART.args" -o"FRDM-KL25ZUART.elf"
 	@echo 'Finished building target: $@'

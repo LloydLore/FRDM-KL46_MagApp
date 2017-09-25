@@ -8,6 +8,7 @@
 #include "Application.h"
 #include "RxBuf.h"
 #include "AS1.h"
+#include "LEDLoop.h"
  
 static UART_Desc deviceData;
  
@@ -49,5 +50,6 @@ void APP_Run(void) {
       }
       SendString((unsigned char*)"\r\n", &deviceData);
     }
+    LED_Flash_Loop();
   }
 }

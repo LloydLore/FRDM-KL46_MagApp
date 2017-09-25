@@ -1,14 +1,25 @@
+"./Generated_Code/WAIT1.o"
 "./Generated_Code/Vectors.o"
 "./Generated_Code/RxBuf.o"
 "./Generated_Code/PE_LDD.o"
 "./Generated_Code/MCUC1.o"
+"./Generated_Code/LEDpin3.o"
+"./Generated_Code/LEDpin2.o"
+"./Generated_Code/LEDpin1.o"
+"./Generated_Code/LEDR.o"
+"./Generated_Code/LEDG.o"
+"./Generated_Code/LEDB.o"
 "./Generated_Code/Cpu.o"
 "./Generated_Code/CS1.o"
+"./Generated_Code/BitIoLdd3.o"
+"./Generated_Code/BitIoLdd2.o"
+"./Generated_Code/BitIoLdd1.o"
 "./Generated_Code/AS1.o"
 "./Project_Settings/Startup_Code/__arm_start.o"
 "./Project_Settings/Startup_Code/__arm_end.o"
 "./Sources/sa_mtb.o"
 "./Sources/main.o"
+"./Sources/LEDLoop.o"
 "./Sources/Events.o"
 "./Sources/Application.o"
 -mcpu=cortex-m0
@@ -20,7 +31,7 @@
 -T"C:/Users/michael.luo/workspace/FRDM-KL25Z UART/Project_Settings/Linker_Files/ProcessorExpert.ld"
 -Xlinker
 --gc-sections
--L"C:/Freescale/CW MCU v10.7/MCU/ARM_GCC_Support/ewl/lib/armv6-m"
+-L"D:/Freescale/CW MCU v10.7/MCU/ARM_GCC_Support/ewl/lib/armv6-m"
 -Wl,-Map,FRDM-KL25ZUART.map
 -n
 -specs=ewl_c.specs

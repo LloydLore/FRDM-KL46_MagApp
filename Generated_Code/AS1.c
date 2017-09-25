@@ -6,7 +6,7 @@
 **     Component   : Serial_LDD
 **     Version     : Component 01.187, Driver 01.13, CPU db: 3.00.000
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2017-09-21, 11:13, # CodeGen: 5
+**     Date/Time   : 2017-09-25, 11:35, # CodeGen: 6
 **     Abstract    :
 **         This component "Serial_LDD" implements an asynchronous serial
 **         communication. The component supports different settings of
@@ -134,7 +134,6 @@ static AS1_TDeviceData DeviceDataPrv__DEFAULT_RTOS_ALLOC;
 /* {Default RTOS Adapter} Global variable used for passing a parameter into ISR */
 static AS1_TDeviceDataPtr INT_UART0__DEFAULT_RTOS_ISRPARAM;
 
-uint8_t SendInterruptCounter_test = 0x0u;	/*!< counter for send interrupt */
 /*
 ** ===================================================================
 **     Method      :  AS1_Init (component Serial_LDD)
@@ -383,7 +382,7 @@ static void InterruptRx(AS1_TDeviceDataPtr DeviceDataPrv)
 */
 static void InterruptTx(AS1_TDeviceDataPtr DeviceDataPrv)
 {
-	SendInterruptCounter_test++;
+
   if (DeviceDataPrv->OutSentDataNum < DeviceDataPrv->OutDataNumReq) { /* Is number of sent characters less than the number of requested incoming characters? */
     UART0_PDD_PutChar8(UART0_BASE_PTR, *(DeviceDataPrv->OutDataPtr++)); /* Put a 8-bit character to the transmit register */
     DeviceDataPrv->OutSentDataNum++;   /* Increment the counter of sent characters. */

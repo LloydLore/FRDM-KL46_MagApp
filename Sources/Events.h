@@ -38,6 +38,16 @@
 #include "RxBuf.h"
 #include "MCUC1.h"
 #include "CS1.h"
+#include "LEDR.h"
+#include "LEDpin1.h"
+#include "BitIoLdd1.h"
+#include "LEDG.h"
+#include "LEDpin2.h"
+#include "BitIoLdd2.h"
+#include "LEDB.h"
+#include "LEDpin3.h"
+#include "BitIoLdd3.h"
+#include "WAIT1.h"
 
 #ifdef __cplusplus
 extern "C" {

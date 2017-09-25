@@ -5,7 +5,7 @@
 **     Processor   : MKL25Z128VLK4
 **     Version     : Component 01.025, Driver 01.04, CPU db: 3.00.000
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2017-09-18, 13:33, # CodeGen: 1
+**     Date/Time   : 2017-09-25, 11:35, # CodeGen: 6
 **     Abstract    :
 **
 **     Settings    :
@@ -64,6 +64,16 @@
 #include "RxBuf.h"
 #include "MCUC1.h"
 #include "CS1.h"
+#include "LEDR.h"
+#include "LEDpin1.h"
+#include "BitIoLdd1.h"
+#include "LEDG.h"
+#include "LEDpin2.h"
+#include "BitIoLdd2.h"
+#include "LEDB.h"
+#include "LEDpin3.h"
+#include "BitIoLdd3.h"
+#include "WAIT1.h"
 
 
 /*

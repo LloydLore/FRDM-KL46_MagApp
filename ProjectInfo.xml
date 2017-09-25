@@ -51,12 +51,22 @@
   <FILES>
     <GeneratedCs>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\AS1.c</PathName>
+      <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\BitIoLdd1.c</PathName>
+      <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\BitIoLdd2.c</PathName>
+      <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\BitIoLdd3.c</PathName>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\CS1.c</PathName>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\Cpu.c</PathName>
+      <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\LEDB.c</PathName>
+      <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\LEDG.c</PathName>
+      <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\LEDR.c</PathName>
+      <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\LEDpin1.c</PathName>
+      <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\LEDpin2.c</PathName>
+      <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\LEDpin3.c</PathName>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\MCUC1.c</PathName>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\PE_LDD.c</PathName>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\RxBuf.c</PathName>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\Vectors.c</PathName>
+      <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\WAIT1.c</PathName>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Project_Settings\Startup_Code\__arm_end.c</PathName>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Project_Settings\Startup_Code\__arm_start.c</PathName>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Sources\Application.c</PathName>
@@ -66,10 +76,22 @@
     </GeneratedCs>
     <GeneratedHs>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\AS1.h</PathName>
+      <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\BitIoLdd1.h</PathName>
+      <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\BitIoLdd2.h</PathName>
+      <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\BitIoLdd3.h</PathName>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\CS1.h</PathName>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\CS1config.h</PathName>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\Cpu.h</PathName>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\IO_Map.h</PathName>
+      <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\LEDB.h</PathName>
+      <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\LEDBconfig.h</PathName>
+      <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\LEDG.h</PathName>
+      <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\LEDGconfig.h</PathName>
+      <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\LEDR.h</PathName>
+      <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\LEDRconfig.h</PathName>
+      <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\LEDpin1.h</PathName>
+      <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\LEDpin2.h</PathName>
+      <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\LEDpin3.h</PathName>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\MCUC1.h</PathName>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\MCUC1config.h</PathName>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\PE_Const.h</PathName>
@@ -78,6 +100,8 @@
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\PE_Types.h</PathName>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\RxBuf.h</PathName>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\RxBufconfig.h</PathName>
+      <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\WAIT1.h</PathName>
+      <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Generated_Code\WAIT1config.h</PathName>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Project_Headers\bme.h</PathName>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Project_Settings\Startup_Code\runtime_configuration.h</PathName>
       <PathName>C:\Users\michael.luo\workspace\FRDM-KL25Z UART\Sources\Application.h</PathName>

@@ -4,6 +4,7 @@
  *  Created on: Sep 25, 2017
  *      Author: Michael.luo
  *      Note: I mainly copied the content of this file from Erich Styger. Special thanks to him. 
+ *		I modified here to see if the files are synced. typed when in progress of 6th commit. 
  */
 
 #include "MMA8451.h"

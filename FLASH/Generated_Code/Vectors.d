@@ -27,6 +27,7 @@ Generated_Code/Vectors.o: ../Generated_Code/Vectors.c \
  ../Generated_Code/LEDB.h ../Generated_Code/LEDBconfig.h \
  ../Generated_Code/LEDpin3.h ../Generated_Code/BitIoLdd3.h \
  ../Generated_Code/WAIT1.h ../Generated_Code/WAIT1config.h \
+ ../Generated_Code/I2C2.h \
  C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Sources/Events.h \
  C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/PE_Types.h \
  C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/PE_Error.h \
@@ -45,7 +46,8 @@ Generated_Code/Vectors.o: ../Generated_Code/Vectors.c \
  C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/LEDB.h \
  C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/LEDpin3.h \
  C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/BitIoLdd3.h \
- C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/WAIT1.h
+ C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/WAIT1.h \
+ C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/I2C2.h
 
 D:/Freescale/CW\ MCU\ v10.7/MCU/ARM_GCC_Support/ewl/EWL_C/include/lib_ewl.prefix:
 
@@ -127,6 +129,8 @@ C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Static_Code/PDD/PDD_Types.h:
 
 ../Generated_Code/WAIT1config.h:
 
+../Generated_Code/I2C2.h:
+
 C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Sources/Events.h:
 
 C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/PE_Types.h:
@@ -164,3 +168,5 @@ C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/LEDpin3.h:
 C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/BitIoLdd3.h:
 
 C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/WAIT1.h:
+
+C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/I2C2.h:

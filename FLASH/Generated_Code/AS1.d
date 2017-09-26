@@ -56,6 +56,7 @@ Generated_Code/AS1.o: ../Generated_Code/AS1.c \
  C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/BitIoLdd3.h \
  C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/WAIT1.h \
  C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/WAIT1config.h \
+ C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/I2C2.h \
  C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Static_Code/PDD/UART0_PDD.h \
  C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Static_Code/PDD/SIM_PDD.h
 
@@ -176,6 +177,8 @@ C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/BitIoLdd3.h:
 C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/WAIT1.h:
 
 C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/WAIT1config.h:
+
+C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/I2C2.h:
 
 C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Static_Code/PDD/UART0_PDD.h:
 

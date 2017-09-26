@@ -13,14 +13,14 @@
 static UART_Desc deviceData;
  
 static void SendChar(unsigned char ch, UART_Desc *desc) {
-          desc->isSent = FALSE;  /* this will be set to 1 once the block has been sent */
+		  desc->isSent = FALSE;  /* this will be set to 1 once the block has been sent */
   while(AS1_SendBlock(desc->handle, (LDD_TData*)&ch, 1)!=ERR_OK) {} /* Send char */
   while(!desc->isSent) {} /* wait until we get the green flag from the TX interrupt */
 }
  
 static void SendString(const unsigned char *str,  UART_Desc *desc) {
   while(*str!='\0') {
-    SendChar(*str++, desc);
+	SendChar(*str++, desc);
   }
 }
  
@@ -37,19 +37,23 @@ static void Init(void) {
 }
  
 void APP_Run(void) {
+	LEDR_On();
+	LEDG_On();
+	LEDB_On();
+	
   Init();
   SendString((unsigned char*)"Hello World\r\n", &deviceData);
   for(;;) {
-    if (RxBuf_NofElements()!=0) {
-      SendString((unsigned char*)"echo: ", &deviceData);
-      while (RxBuf_NofElements()!=0) {
-        unsigned char ch;
+	if (RxBuf_NofElements()!=0) {
+	  SendString((unsigned char*)"echo: ", &deviceData);
+	  while (RxBuf_NofElements()!=0) {
+		unsigned char ch;
  
-        (void)RxBuf_Get(&ch);
-        SendChar(ch, &deviceData);
-      }
-      SendString((unsigned char*)"\r\n", &deviceData);
-    }
-    LED_Flash_Loop();
+		(void)RxBuf_Get(&ch);
+		SendChar(ch, &deviceData);
+	  }
+	  SendString((unsigned char*)"\r\n", &deviceData);
+	}
+	LED_Flash_Loop();
   }
 }

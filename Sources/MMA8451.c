@@ -7,7 +7,7 @@
  *		I modified here to see if the files are synced. typed when in progress of 6th commit. 
  *		I modified here to see if the files are synced. typed when in progress of 7th commit. 
  *		During 7th commit, I succeed connecting the visual studio with CW eclipse through github. good thing. 
- *		I try push the 7th commit to the server. so I take the 8th commit. 
+ *		I try push the 7th commit to the server. so I take the 8th commit. test again. again. again. 
  */
 
 #include "MMA8451.h"
@@ -40,16 +40,16 @@ uint8_t MMA8451_ReadReg(uint8_t addr, uint8_t *data, short dataSize)	{
 	if(res != ERR_OK){
 		return ERR_FAILED;
 	}
-	while(!MMA8451_deviceData->dataTransmittedFlg)	{}	/* Wait until data is sent */
-	MMA8451_deviceData->dataTransmittedFlg = FALSE;
+	while(!MMA8451_deviceData.dataTransmittedFlg)	{}	/* Wait until data is sent */
+	MMA8451_deviceData.dataTransmittedFlg = FALSE;
 	
 	/* Receive InpData (1 byte) from the I2C bus and generates a stop condition to end transmission */
 	res = I2C2_MasterReceiveBlock(MMA8451_deviceData.handle, data, dataSize, LDD_I2C_SEND_STOP);
 	if(res != ERR_OK){
 		return ERR_FAILED;
 	}
-	while(!MMA8451_deviceData->dataReceivedFlg)	{}		/* Wait until data is received */ 
-	MMA8451_deviceData->dataReceivedFlg = FALSE;
+	while(!MMA8451_deviceData.dataReceivedFlg)	{}		/* Wait until data is received */ 
+	MMA8451_deviceData.dataReceivedFlg = FALSE;
 	return ERR_OK;	
 }
 
@@ -59,12 +59,12 @@ uint8_t MMA8451_WriteReg(uint8_t addr, uint8_t val)	{
 	buf[0] = addr;
 	buf[1] = val;
 	
-	res = I2C2_MasterSendBlock(MMA8451_deviceData->handle, &buf, 2U, LDD_I2C_SEND_STOP);	/* Send OutData (3 bytes with address) on the I2C bus and generates a stop condition to end transission */ 
+	res = I2C2_MasterSendBlock(MMA8451_deviceData.handle, &buf, 2U, LDD_I2C_SEND_STOP);	/* Send OutData (3 bytes with address) on the I2C bus and generates a stop condition to end transission */ 
 	if(res != ERR_OK){
 		return ERR_FAILED;
 	}
-	while(!MMA8451_deviceData->dataTransmittedFlg)	{}	/* Wait until data is send */
-	MMA8451_deviceData->dataTransmittedFlg = FALSE;
+	while(!MMA8451_deviceData.dataTransmittedFlg)	{}	/* Wait until data is send */
+	MMA8451_deviceData.dataTransmittedFlg = FALSE;
 	return ERR_OK;
 }
 
@@ -76,7 +76,7 @@ void MMA8451_Run(void)	{
 	LEDR_On();
 	LEDG_On();
 	LEDB_On();
-	MMA8451_deviceData->handle = I2C2_Init(&MMA8451_deviceData);
+	MMA8451_deviceData.handle = I2C2_Init(&MMA8451_deviceData);
 	
 	/* F_READ: Fast read mode, data format limited to single byte (auto incremtnt counter will skip LSB)
 	 * ACTIVE: Full scale selection
@@ -90,7 +90,6 @@ void MMA8451_Run(void)	{
 			LEDB_Put(xyz[2] > 50);
 		}
 	}
-	I2C2_Deinit(MMA8451_deviceData.handle);	
 	LEDR_Off();
 	LEDG_Off();
 	LEDB_Off();

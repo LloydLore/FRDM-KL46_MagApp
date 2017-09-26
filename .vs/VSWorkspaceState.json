@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Generated_Code",
     "\\Sources"
   ],
-  "SelectedNode": "\\Sources\\MMA8451.c",
+  "SelectedNode": "\\Sources\\main.c",
   "PreviewInSolutionExplorer": false
 }

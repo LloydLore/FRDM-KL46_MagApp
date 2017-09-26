@@ -53,6 +53,7 @@ Sources/Events.o: ../Sources/Events.c \
  C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/BitIoLdd3.h \
  C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/WAIT1.h \
  C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/WAIT1config.h \
+ C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/I2C2.h \
  ../Sources/Application.h \
  C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/PE_LDD.h \
  C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/AS1.h \
@@ -60,7 +61,9 @@ Sources/Events.o: ../Sources/Events.c \
  C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/LEDR.h \
  C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/LEDG.h \
  C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/LEDB.h \
- C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/WAIT1.h
+ C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/WAIT1.h \
+ C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/I2C2.h \
+ ../Sources/MMA8451.h
 
 D:/Freescale/CW\ MCU\ v10.7/MCU/ARM_GCC_Support/ewl/EWL_C/include/lib_ewl.prefix:
 
@@ -170,6 +173,8 @@ C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/WAIT1.h:
 
 C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/WAIT1config.h:
 
+C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/I2C2.h:
+
 ../Sources/Application.h:
 
 C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/PE_LDD.h:
@@ -185,3 +190,7 @@ C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/LEDG.h:
 C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/LEDB.h:
 
 C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/WAIT1.h:
+
+C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/I2C2.h:
+
+../Sources/MMA8451.h:

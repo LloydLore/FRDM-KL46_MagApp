@@ -26,7 +26,8 @@ Generated_Code/PE_LDD.o: ../Generated_Code/PE_LDD.c \
  ../Generated_Code/LEDpin2.h ../Generated_Code/BitIoLdd2.h \
  ../Generated_Code/LEDB.h ../Generated_Code/LEDBconfig.h \
  ../Generated_Code/LEDpin3.h ../Generated_Code/BitIoLdd3.h \
- ../Generated_Code/WAIT1.h ../Generated_Code/WAIT1config.h
+ ../Generated_Code/WAIT1.h ../Generated_Code/WAIT1config.h \
+ ../Generated_Code/I2C2.h
 
 D:/Freescale/CW\ MCU\ v10.7/MCU/ARM_GCC_Support/ewl/EWL_C/include/lib_ewl.prefix:
 
@@ -109,3 +110,5 @@ C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Static_Code/PDD/PDD_Types.h:
 ../Generated_Code/WAIT1.h:
 
 ../Generated_Code/WAIT1config.h:
+
+../Generated_Code/I2C2.h:

@@ -54,6 +54,7 @@
 /* User includes (#include below this line is not maintained by Processor Expert) */
 #include "Application.h"
 #include "LEDLoop.h"
+#include "MMA8451.h"
 
 /*lint -save  -e970 Disable MISRA rule (6.3) checking. */
 int main(void)
@@ -64,7 +65,11 @@ int main(void)
   /*** Processor Expert internal initialization. DON'T REMOVE THIS CODE!!! ***/
   PE_low_level_init();
   /*** End of Processor Expert internal initialization.                    ***/
+#if 1
   APP_Run();
+#else 
+  MMA8451_Run();
+#endif
   /* Write your code here */
   /* For example: for(;;) { } */
 

@@ -347,7 +347,7 @@
     </GenFiles>
     <SignalListFile>Documentation\FRDM-KL25Z UART_SIGNALS.txt</SignalListFile>
     <DestinationCompiler>GNUC</DestinationCompiler>
-    <ProjectModificationStamp>5</ProjectModificationStamp>
+    <ProjectModificationStamp>6</ProjectModificationStamp>
   </Options>
   <CpuID_2>
     <Generated>true</Generated>

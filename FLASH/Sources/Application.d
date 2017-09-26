@@ -55,7 +55,9 @@ Sources/Application.o: ../Sources/Application.c \
  C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/LEDB.h \
  C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/LEDpin3.h \
  C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/BitIoLdd3.h \
- C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/WAIT1.h
+ C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/WAIT1.h \
+ ../Sources/MMA8451.h \
+ C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/I2C2.h
 
 D:/Freescale/CW\ MCU\ v10.7/MCU/ARM_GCC_Support/ewl/EWL_C/include/lib_ewl.prefix:
 
@@ -170,3 +172,7 @@ C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/LEDpin3.h:
 C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/BitIoLdd3.h:
 
 C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/WAIT1.h:
+
+../Sources/MMA8451.h:
+
+C:/Users/michael.luo/workspace/FRDM-KL25Z\ UART/Generated_Code/I2C2.h:

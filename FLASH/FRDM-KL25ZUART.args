@@ -20,7 +20,6 @@
 "./Project_Settings/Startup_Code/__arm_end.o"
 "./Sources/sa_mtb.o"
 "./Sources/main.o"
-"./Sources/MMA8451.o"
 "./Sources/LEDLoop.o"
 "./Sources/Events.o"
 "./Sources/Application.o"
